@@ -1,0 +1,45 @@
+{
+  "name": "@mtoledo/semver-check",
+  "version": "1.0.0",
+  "description": "A tool to determine if a version satisfies a semver range. This tool is also able to list versions of existing node modules that match a semver range.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "true-level": "rimraf ./node_modules && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "semver"
+  ],
+  "bin": {
+    "semver-check": "dist/semver-check.js"
+  },
+  "author": "Matthew Toledo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrbinky3000/semver-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrbinky3000/semver-check/issues"
+  },
+  "homepage": "https://github.com/mrbinky3000/semver-check#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/npm-registry-fetch": "^8.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "npm-registry-fetch": "^16.1.0",
+    "semver": "^7.5.4"
+  }
+}

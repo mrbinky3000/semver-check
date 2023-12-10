@@ -1,6 +1,13 @@
 # semver-check
 A tool to determine if a version satisfies a semver range. This tool is also able to list versions of existing node modules that match a semver range.
 
+### Why?
+Trying to decipher the semver rules made my eyes gloss over.  I learn better by experimentation.  Creating and using this command line node tool helped me grock just how semver works.
+
+### Installation
+`npm i -g @mtoledo/semver-check`
+
+### Usage
 ```
 Usage: semver-check [options] [command]
 
@@ -19,5 +26,3 @@ Commands:
 
   help [command]                          display help for command
 ```
-
-Trying to decipher the semver rules made my eyes gloss over.  I learn better by experimentation.  Creating and using this tool helped me grock just how semver works.

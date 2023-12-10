@@ -19,6 +19,7 @@
     // Our tweaks added below
     "forceConsistentCasingInFileNames": true,
     "noErrorTruncation": false,
-    "listEmittedFiles": true
+    "listEmittedFiles": true,
+    "sourceMap": true
   }
 }

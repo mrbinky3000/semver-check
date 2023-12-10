@@ -1,6 +1,6 @@
 {
   "name": "@mtoledo/semver-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to determine if a version satisfies a semver range. This tool is also able to list versions of existing node modules that match a semver range.",
   "main": "index.ts",
   "scripts": {
